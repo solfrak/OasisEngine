@@ -1,5 +1,6 @@
 add_library(OasisCore STATIC
     src/Core.cpp
+    src/Log.cpp
 )
 
 target_include_directories(OasisCore
